@@ -1,0 +1,60 @@
+
+body {
+  background-color: #B2B377;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 16px;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #F1F5A8;
+}
+.display{
+  padding: 16px;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.19);
+  font-size: 24px;
+  font-weight: 300;
+}
+.display span{
+  font-size: 14px;
+  color: white;
+  font-weight: bolder;
+}
+button{
+  appearance: none;
+  border: none;
+  color: black;
+  padding: 16px;
+  font-size: 20px;
+  cursor: pointer;
+}
+button:hover{
+  opacity: 0.9;
+}
+.operators{
+  display: flex;
+}
+.operators button{
+  flex: 1 1 0%;
+  background-color: #7F9F80;
+  font-weight: 700;
+}
+.digits{
+  display: flex;
+  flex-wrap: wrap;
+}
+.digits button{
+  flex: 1 1 33.33%;
+  max-width: 33.33%;
+  background-color: #7f9f8000;
+}
